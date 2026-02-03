@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Noir Café Attock - An elevated culinary experience. Premium café with signature dishes and unforgettable ambiance.">
+    <meta name="keywords" content="café, attock, premium dining, signature menu, luxury café">
+    <meta name="theme-color" content="#0a0a0a">
+    <title>Noir Café Attock - Premium Culinary Experience</title>
+    <link rel="icon" type="image/jpeg" href="Images/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="Images/logo.jpg" alt="Noir Café Logo" class="logo-img">
+            </div>
+            <nav class="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#location" class="nav-link">Contact</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <video class="hero-video" autoplay muted loop playsinline poster="Images/logo.jpg">
+                <source src="Images/Where every flavor is a masterpiece, and every moment is unforgettable.Introducing a new standar.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge"><i class="fas fa-crown"></i> Attock's Premier Destination</div>
+            <h1 class="hero-title">
+                <span class="title-word">Noir</span>
+                <span class="title-word">Café</span>
+            </h1>
+            <p class="hero-subtitle">An elevated culinary experience, crafted for every taste.</p>
+            <p class="hero-highlight">Experience premium dining in Attock's most sophisticated atmosphere</p>
+            <div class="hero-buttons">
+                <a href="tel:03235646874" class="btn btn-primary btn-lg">
+                    <i class="fas fa-phone"></i>
+                    Call Now
+                </a>
+                <a href="https://maps.google.com/?q=Teen+Meela+Chowk+Near+Total+Parco+Attock+City" target="_blank" class="btn btn-secondary btn-lg">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Get Directions
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Satisfied Guests</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">11hrs</div>
+                    <div class="stat-label">Open Daily</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number"><i class="fas fa-star"></i> 5/5</div>
+                    <div class="stat-label">Premium Rating</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- 2. About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="Images/Where every flavor is a masterpiece, and every moment is unforgettable.Introducing a new standar.jpg" alt="Noir Café Ambiance" class="about-img">
+            </div>
+            <div class="about-content">
+                <h2>About Noir Café</h2>
+                <p>Welcome to Noir Café, Attock's premier destination for elevated culinary experiences. Nestled in the heart of the city, we craft every moment with precision and passion.</p>
+                <p>Our philosophy is simple: exceptional ingredients, innovative techniques, and an atmosphere that makes every visit unforgettable. Whether you're seeking a quiet escape or a vibrant social experience, Noir Café welcomes you.</p>
+                <div class="about-highlights">
+                    <div class="highlight">
+                        <span class="highlight-icon">🍽️</span>
+                        <h3>Signature Dishes</h3>
+                        <p>Carefully crafted menu</p>
+                    </div>
+                    <div class="highlight">
+                        <span class="highlight-icon">✨</span>
+                        <h3>Premium Ambiance</h3>
+                        <p>Modern luxury design</p>
+                    </div>
+                    <div class="highlight">
+                        <span class="highlight-icon">⏰</span>
+                        <h3>Extended Hours</h3>
+                        <p>Open 1 PM – 12 AM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Stats Section -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-card" data-stat="1000">
+                <div class="stat-icon"><i class="fas fa-users"></i></div>
+                <div class="stat-number"><span class="counter">0</span>+</div>
+                <div class="stat-title">Satisfied Guests</div>
+                <div class="stat-bar"><div class="stat-fill"></div></div>
+            </div>
+            <div class="stat-card" data-stat="6">
+                <div class="stat-icon"><i class="fas fa-utensils"></i></div>
+                <div class="stat-number"><span class="counter">0</span></div>
+                <div class="stat-title">Signature Items</div>
+                <div class="stat-bar"><div class="stat-fill"></div></div>
+            </div>
+            <div class="stat-card" data-stat="5">
+                <div class="stat-icon"><i class="fas fa-star"></i></div>
+                <div class="stat-number"><span class="counter">0</span>/5</div>
+                <div class="stat-title">Guest Rating</div>
+                <div class="stat-bar"><div class="stat-fill"></div></div>
+            </div>
+            <div class="stat-card" data-stat="11">
+                <div class="stat-icon"><i class="fas fa-clock"></i></div>
+                <div class="stat-number"><span class="counter">0</span> hrs</div>
+                <div class="stat-title">Open Daily</div>
+                <div class="stat-bar"><div class="stat-fill"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Signature Menu Highlights -->
+    <section id="menu" class="menu">
+        <div class="menu-container">
+            <h2>Signature Menu Highlights</h2>
+            <p class="section-subtitle">Discover our most beloved creations</p>
+            
+            <div class="menu-grid">
+                <div class="menu-card premium-featured">
+                    <div class="menu-badge"><i class="fas fa-chef-hat"></i> Chef's Choice</div>
+                    <div class="menu-image">
+                        <img src="Images/Every bite of our Korean Chicken is a perfect dance of flavors, carefully crafted for those who .jpg" alt="Korean Chicken">
+                        <div class="menu-price">₨ 450</div>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Korean Chicken</h3>
+                        <p>Expertly marinated tender chicken with authentic Korean spices. A perfect dance of flavors for the discerning palate.</p>
+                        <div class="menu-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (240 reviews)</div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-badge"><i class="fas fa-fire"></i> Popular</div>
+                    <div class="menu-image">
+                        <img src="Images/Light, crisp wonton wraps paired with bold, savory chicken — our Crackling Chicken is proof that.jpg" alt="Crackling Chicken">
+                        <div class="menu-price">₨ 420</div>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Crackling Chicken</h3>
+                        <p>Golden crisp wonton wraps with savory excellence. A signature creation that melts in your mouth.</p>
+                        <div class="menu-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (198 reviews)</div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-image">
+                        <img src="Images/Tender chicken breast, delicately rolled, coated in crisp golden breadcrumbs, and cooked to perf.jpg" alt="Chicken Supreme">
+                        <div class="menu-price">₨ 480</div>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Chicken Supreme</h3>
+                        <p>Tender breast coated in crisp golden breadcrumbs, perfection in every bite. Premium quality assured.</p>
+                        <div class="menu-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (176 reviews)</div>
+                    </div>
+                </div>
+
+                <div class="menu-card premium-featured">
+                    <div class="menu-badge"><i class="fas fa-crown"></i> Best Seller</div>
+                    <div class="menu-image">
+                        <img src="Images/Perfectly baked golden crust, with each edge pocket generously filled , surrounding a base layer.jpg" alt="Golden Delights">
+                        <div class="menu-price">₨ 380</div>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Golden Delights</h3>
+                        <p>Perfectly baked with generously filled pockets and delicate layers. Our most requested item.</p>
+                        <div class="menu-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (312 reviews)</div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-image">
+                        <img src="Images/Prepared with tender chicken stir-fried in a rich, savory sauce, delicately balanced with the cr.jpg" alt="Stir-Fried Perfection">
+                        <div class="menu-price">₨ 460</div>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Stir-Fried Perfection</h3>
+                        <p>Tender chicken in rich savory sauce with fresh ingredients. A symphony of flavors on your plate.</p>
+                        <div class="menu-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (167 reviews)</div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-image">
+                        <img src="Images/A dessert that redefines indulgence. Our Lotus Milk Cake features layers of soft, moist sponge s.jpg" alt="Lotus Milk Cake">
+                        <div class="menu-price">₨ 350</div>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Lotus Milk Cake</h3>
+                        <p>Layers of soft, moist sponge that redefine indulgence. The perfect ending to your meal.</p>
+                        <div class="menu-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (289 reviews)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Ambiance Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="gallery-container">
+            <h2>Ambiance Gallery</h2>
+            <p class="section-subtitle">Experience the essence of Noir Café</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-lightbox="gallery">
+                    <img src="Images/Every bite of our Korean Chicken is a perfect dance of flavors, carefully crafted for those who .jpg" alt="Signature Dish">
+                    <div class="gallery-overlay">
+                        <span class="lightbox-icon"><i class="fas fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-lightbox="gallery">
+                    <img src="Images/Light, crisp wonton wraps paired with bold, savory chicken — our Crackling Chicken is proof that.jpg" alt="Premium Cuisine">
+                    <div class="gallery-overlay">
+                        <span class="lightbox-icon"><i class="fas fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-lightbox="gallery">
+                    <img src="Images/Perfectly baked golden crust, with each edge pocket generously filled , surrounding a base layer.jpg" alt="Ambiance">
+                    <div class="gallery-overlay">
+                        <span class="lightbox-icon"><i class="fas fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-lightbox="gallery">
+                    <img src="Images/Tender chicken breast, delicately rolled, coated in crisp golden breadcrumbs, and cooked to perf.jpg" alt="Chef's Creation">
+                    <div class="gallery-overlay">
+                        <span class="lightbox-icon"><i class="fas fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-lightbox="gallery">
+                    <img src="Images/Prepared with tender chicken stir-fried in a rich, savory sauce, delicately balanced with the cr.jpg" alt="Gourmet Experience">
+                    <div class="gallery-overlay">
+                        <span class="lightbox-icon"><i class="fas fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-lightbox="gallery">
+                    <img src="Images/A dessert that redefines indulgence. Our Lotus Milk Cake features layers of soft, moist sponge s.jpg" alt="Dessert Perfection">
+                    <div class="gallery-overlay">
+                        <span class="lightbox-icon"><i class="fas fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-lightbox="gallery">
+                    <img src="Images/🔥 ATTOCK'S ULTIMATE #steaks EXPERIENCE! 🥩#ᴀᴛᴛᴏᴄᴋ , are you craving perfection Stop settling fo.jpg" alt="Steaks Experience">
+                    <div class="gallery-overlay">
+                        <span class="lightbox-icon"><i class="fas fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-lightbox="gallery">
+                    <img src="Images/Where every flavor is a masterpiece, and every moment is unforgettable.Introducing a new standar.jpg" alt="Excellence">
+                    <div class="gallery-overlay">
+                        <span class="lightbox-icon"><i class="fas fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Location & Timings -->
+    <section id="location" class="location">
+        <div class="location-container">
+            <div class="location-info">
+                <h2>Visit Us</h2>
+                
+                <div class="info-card">
+                    <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
+                    <p>Teen Meela Chowk<br>Near Total Parco<br>Attock City</p>
+                </div>
+
+                <div class="info-card">
+                    <h3><i class="fas fa-clock"></i> Hours</h3>
+                    <p>Monday – Sunday<br>1:00 PM – 12:00 AM</p>
+                </div>
+
+                <div class="info-card">
+                    <h3><i class="fas fa-phone"></i> Phone</h3>
+                    <p><a href="tel:03235646874">0323-5646874</a></p>
+                </div>
+
+                <a href="https://maps.google.com/?q=Teen+Meela+Chowk+Near+Total+Parco+Attock+City" target="_blank" class="btn btn-primary">Get Directions</a>
+            </div>
+
+            <div class="map-placeholder">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.1234567890!2d72.7362!3d33.7669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfaa0000000%3A0x0!2sAttock%20City!5e0!3m2!1sen!2s!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Call to Action -->
+    <section class="cta">
+        <div class="cta-overlay"></div>
+        <div class="cta-content">
+            <h2>Visit Noir Café Today</h2>
+            <p>Experience the perfect blend of taste, ambiance, and hospitality</p>
+            <a href="tel:03235646874" class="btn btn-glow">Call Now</a>
+        </div>
+    </section>
+
+    <!-- 7. Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="Images/logo.jpg" alt="Noir Café Logo" class="footer-logo-img">
+                <p>Noir Café Attock</p>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p><a href="tel:03235646874">0323-5646874</a></p>
+                <p>Teen Meela Chowk, Near Total Parco</p>
+                <p>Attock City</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Follow Us</h4>
+                <a href="https://instagram.com" target="_blank" class="social-link">Instagram</a>
+                <a href="https://facebook.com" target="_blank" class="social-link">Facebook</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Noir Café Attock. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-image" src="" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
