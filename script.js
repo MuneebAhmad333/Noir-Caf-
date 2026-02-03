@@ -3,6 +3,21 @@
 // ===========================
 
 // ===========================
+// Mobile Video Autoplay Fix
+// ===========================
+
+document.addEventListener('DOMContentLoaded', function() {
+    const video = document.querySelector('.hero-video');
+    if (video) {
+        // Try to play the video
+        video.play().catch(error => {
+            // If autoplay fails, show poster and let user tap to play
+            console.log('Autoplay prevented:', error);
+        });
+    }
+});
+
+// ===========================
 // Counter Animation for Stats
 // ===========================
 

@@ -173,6 +173,22 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+/* Mobile video optimization */
+@media (max-width: 768px) {
+    .hero-video {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .hero-background {
+        min-height: 50vh;
+    }
 }
 
 .hero-overlay {
